@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page1"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-2dp">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/teal_200"
+        android:gravity="center_vertical"
+        android:text="Application SNCF -2023 -"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="412dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sncf_logo" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Votre avis sur le service ?"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <RadioGroup
+        android:id="@+id/idPonctualite"
+        android:layout_width="298dp"
+        android:layout_height="127dp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="443dp">
+
+        <RadioButton
+            android:id="@+id/idPonctualite1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Très satisfait"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="443dp" />
+
+        <RadioButton
+            android:id="@+id/idPonctualite2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Satisfait"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="491dp" />
+
+        <RadioButton
+            android:id="@+id/idPonctualite3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insatisfait"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="539dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Votre avis sur la ponctualité ?"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <RadioGroup
+        android:id="@+id/idService"
+        android:layout_width="295dp"
+        android:layout_height="143dp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="214dp">
+
+        <RadioButton
+            android:id="@+id/idService1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Très satisfait"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="214dp" />
+
+        <RadioButton
+            android:id="@+id/idService2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Satisfait"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="262dp" />
+
+        <RadioButton
+            android:id="@+id/idService3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insatisfait"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="310dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/idSuivant1"
+        android:layout_width="418dp"
+        android:layout_height="62dp"
+        android:text="Suivant"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="598dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

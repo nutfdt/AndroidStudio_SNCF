@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fin">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="326dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sncf_logo" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/teal_200"
+        android:gravity="center_vertical"
+        android:text="Application SNCF -2023 -"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/idMoyenne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Votre moyenne :"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <ImageView
+        android:id="@+id/idSmiley"
+        android:layout_width="231dp"
+        android:layout_height="197dp"
+        app:srcCompat="@drawable/smiley_3"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <ListView
+        android:id="@+id/idListe"
+        android:layout_width="412dp"
+        android:layout_height="198dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <Button
+        android:id="@+id/idRetour"
+        android:layout_width="420dp"
+        android:layout_height="59dp"
+        android:text="Retour"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="605dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page2">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="412dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sncf_logo" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/teal_200"
+        android:gravity="center_vertical"
+        android:text="Application SNCF -2023 -"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Votre avis sur la propreté ? "
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Votre avis sur l'information ? "
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="411dp" />
+
+    <RadioGroup
+
+        android:id="@+id/idProprete"
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="229dp">
+
+        <RadioButton
+            android:id="@+id/idProprete1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Très satisfait" />
+
+        <RadioButton
+            android:id="@+id/idProprete2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Satisfait" />
+
+        <RadioButton
+            android:id="@+id/idProprete3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insatisfait" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/idInformation"
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="482dp">
+
+        <RadioButton
+            android:id="@+id/idInformation1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Très satisfait" />
+
+        <RadioButton
+            android:id="@+id/idInformation2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Satisfait" />
+
+        <RadioButton
+            android:id="@+id/idInformation3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insatisfait" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/idSuivant2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suivant"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="614dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
